@@ -1,102 +1,146 @@
-* {
-  margin: 0px;
-  padding: 0%;
-  box-sizing: border-box;
-}
-.body {
-  font-family: "Baloo Bhai";
-  margin: 0px;
-  padding: 0px;
-}
-
 .background {
-  width: 100%;
-  height: 100%;
-  background: url("	https://www.africanwildlifesafaris.com/wp-content/uploads/taj-mahal-hotel-mumbai-inset4.jpg");
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://www.africanwildlifesafaris.com/wp-content/uploads/taj-mahal-hotel-mumbai-inset4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.hotel-container{
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 100px);
 }
 
 .hotel {
   color: white;
-  padding: 300px;
-  display: grid;
-  place-items: center;
-  background-color: rgba(0, 0, 0, 0.55);
-}
-.form{
-  color: white;
-  padding: 200px;
-  display: grid;
-  place-items: center;
-  background-color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.home{
-  width: 100%;
+.hotel-label{
+  margin-top: 2vw;
+}
+
+.form-container {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 100px);
+}
+
+.form {
+  color: white;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  margin-bottom: 1vw;
+}
+
+.home {
+  width: 100vw;
   height: 100vh;
-  background: url("	https://cdn.audleytravel.com/1743/1245/79/280554-taj-mahal-heritage-and-tower-wings-mumbai.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://cdn.audleytravel.com/1743/1245/79/280554-taj-mahal-heritage-and-tower-wings-mumbai.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.about{
-  width: 100%;
+.about {
+  width: 100vw;
   height: 100vh;
-  background: url("	https://c0.wallpaperflare.com/preview/822/804/921/the-taj-mahal-palace-hotel-photo.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://c0.wallpaperflare.com/preview/822/804/921/the-taj-mahal-palace-hotel-photo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.aboutus{
-  color: white;
-  height: 100%;
-  padding: 100px;
-  display: grid;
-  place-items: center;
-  background-color: rgba(0, 0, 0, 0.55);
 }
 
-.contact{
-  width: 100%;
+.aboutus-container {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 100px);
+}
+
+.aboutus {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact {
+  width: 100vw;
   height: 100vh;
-  background: url("https://i.travelapi.com/hotels/2000000/1150000/1146100/1146094/f257bf36_z.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://i.travelapi.com/hotels/2000000/1150000/1146100/1146094/f257bf36_z.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.contactus{
-  color: white;
-  height: 100%;
-  padding: 20%;
-  display: grid;
-  place-items: left;
-  background-color: rgba(0, 0, 0, 0.55);
+
+.contact-container {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 100px);
 }
-.underline{
+
+.contactus {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.underline {
   text-decoration-line: underline;
 }
-.gallary{
+
+.gallery {
+  background-color: black;
+}
+
+.carousel-item {
+  width: 100vw;
+  height: calc(100vh - 40px);
+  float: left;
+}
+
+.carousel-item img {
   width: 100%;
-  height: 100vh;
-  background: url("https://i.pngimg.me/thumb/f/720/6407053161529344.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.gallary1{
-  color: white;
   height: 100%;
-  padding: 5%;
-  display: grid;
-  place-items: top center;
-  background-color: rgba(0, 0, 0, 0.55);
 }
-.justify-content-center{
-  background-color: transparent;
-}
-.nav-link{
+
+.nav-link {
   color: white;
+}
+
+.home-button {
+  color: white;
+  background-color: black;
+}
+
+.home-button:hover {
+  color: yellow;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
