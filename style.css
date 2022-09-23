@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Baloo Bhai";
+  margin: 0px;
+  padding: 0px;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("	https://www.africanwildlifesafaris.com/wp-content/uploads/taj-mahal-hotel-mumbai-inset4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hotel {
+  color: white;
+  padding: 300px;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.form{
+  color: white;
+  padding: 200px;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.home{
+  width: 100%;
+  height: 100vh;
+  background: url("	https://cdn.audleytravel.com/1743/1245/79/280554-taj-mahal-heritage-and-tower-wings-mumbai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about{
+  width: 100%;
+  height: 100vh;
+  background: url("	https://c0.wallpaperflare.com/preview/822/804/921/the-taj-mahal-palace-hotel-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.aboutus{
+  color: white;
+  height: 100%;
+  padding: 100px;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.contact{
+  width: 100%;
+  height: 100vh;
+  background: url("https://i.travelapi.com/hotels/2000000/1150000/1146100/1146094/f257bf36_z.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contactus{
+  color: white;
+  height: 100%;
+  padding: 20%;
+  display: grid;
+  place-items: left;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.underline{
+  text-decoration-line: underline;
+}
+.gallary{
+  width: 100%;
+  height: 100vh;
+  background: url("https://i.pngimg.me/thumb/f/720/6407053161529344.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallary1{
+  color: white;
+  height: 100%;
+  padding: 5%;
+  display: grid;
+  place-items: top center;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.justify-content-center{
+  background-color: transparent;
+}
+.nav-link{
+  color: white;
+}
